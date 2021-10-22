@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+</head>
+<body>
+	<section class = "showcase">
+		<header>
+			<h2 class="logo">AQUIB</h2>
+			<div class="toggle"></div>
+		</header>
+
+		<video src="bg.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>NEVER STOP TO</h2>
+			<h3>Exploring The World</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="#">Explore</a>
+		</div>
+
+		<ul class="social-media">
+			<a href="https://www.facebook.com/alestair.maxer.7"><li class="fab fa-facebook-f"></li></a>
+
+			<a href="https://www.instagram.com/eshal_obsessed/"><li class="fab fa-instagram"></li></a>
+
+			<a href="https://twitter.com/WebDev_aquib"><li class="fab fa-twitter"></li></a>
+
+			<a href="https://www.github.com/WebDev-aquib"><li class="fab fa-github"></li></a>
+		</ul>
+	</section>
+
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Destination</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		const menuToggle = document.querySelector('.toggle')
+		const showcase = document.querySelector('.showcase')
+
+		menuToggle.addEventListener('click', () => {
+			menuToggle.classList.toggle('active')
+			showcase.classList.toggle('active')
+		})
+
+
+	</script>
+
+</body>
+</html>
